@@ -5,7 +5,11 @@ A repository for trial and error when using CloudFormation. It is for personal l
 ## Structure
 
 ```
-├── .vscode/           <- Settings for VS Code.
+├── .vscode/          <- Settings for VS Code.
+│
+├── stacks/           <- CloudFormation stacks definition.
+│
+└── README.md
 ```
 
 ### .vscode
@@ -13,3 +17,10 @@ A repository for trial and error when using CloudFormation. It is for personal l
 `settings.json` specifies CFn specific YAML notations. The setting is borrowed from the following blog page.
 
 - [CFnをYAMLで快適に書く環境をVSCodeで作成する](https://qiita.com/akirarara16/items/e9eb6e4ad694c2eb8458)
+
+### stacks
+
+```
+stacks
+├── <SERVICES>
+```
